@@ -27,7 +27,8 @@ jobs:
                 +magisk                   \
                 +nohardening              \
                 +ttl                      \
-                +wireguard                \
+                +300hz                    \
+                +nodebug                  \
                 +cifs
     - name: Kernel Build
       run: ./build :build
